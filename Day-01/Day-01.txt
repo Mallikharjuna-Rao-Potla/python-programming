@@ -1,0 +1,72 @@
+Date:17/08/2026
+
+python History
+
+# Developed by the Guido Van Rossum in 1991
+# Popular Applications developed in Python include : Instagram , facebook,netflix etc..
+
+# Interview Questions from Python
+
+1. python is pure object oriented programming language or not ?
+
+ANS: NO,Python is not pure object oriented programming language.we can run the code without class & object. 
+     JAVA is pure object oriented programming language.
+     C is procedure oriented language.
+
+
+2. Python is case sensitive or not?
+ANS : YES.Python is case sensitive.
+
+
+
+3. Python is complier or interpter?
+ANS : Python is both(source code -> complier -> Byte code -> PVM -> machine code).
+
+4. Python is platform independent language or not? why?
+ANS: YES. Python is indepedent laagauage. because of Python virtual machine(PVM).
+
+5. In which language Python is devlop?
+ANS. Python is developed in (C_Python)C language.
+     Jpython is developed in Java.
+     PyPython is develped in Python.
+     MicroPython is developed in IOT.
+
+6. Which is fastest language out of c,c++,java , Python?
+ANS: C is fastest, Python is slowest.
+
+
+
+
+print("Hello world")
+
+
+Variables in Python
+
+code:
+a = 10
+b = 12.43
+c = "Mallikharjun"
+d = True
+e = None
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+
+output:
+
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+<class 'NoneType'>
+
+
+#Rules to define a variable name in python
+1. Don't start with the variable name by a digit
+2. variable name must be start with character or underscore.
+3. Special symbols are not allowed in variable name.
+4. hypen and spaces are not allowed inside the name. 
