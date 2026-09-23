@@ -1,0 +1,64 @@
+Date :18/08/2026
+
+Variables in Python
+
+1. Don't start with the variable name by a digit
+2. variable name must be start with character or underscore.
+3. Special symbols are not allowed in variable name.
+4. hypen and spaces are not allowed inside the name. 
+
+sample Code:
+
+a = 10
+b = 12.43
+c = "Mallikharjun"
+d = True
+e = None
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+output:<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+<class 'NoneType'>
+
+#Q: swap the number/string without using the temp or third variable
+
+a = 100
+b = "Hello"
+
+a,b = b,a 
+print(a,b)
+
+output:Hello 100
+
+
+Python indentation
+
+#Def:identation is used to define a block.
+#unnecessary space is not allowed in python
+x = 10
+y = "Hello"
+z =  10.9
+print(x,y,z)
+
+output : 10 Hello 10.9
+
+
+ x = 10
+if x == 11:
+    print("Hello") # inside of the block
+
+print("World") #these statement is outside of the if block
+
+output:World
+
+#interview Question
+#python complier differeniate between TAB and 4 spaces.
+#it is not compulsory to give  in the 4 spaces or tab spaces for a block statements.
+#we can use single, double ,triple ,or any no. of spcaes.
